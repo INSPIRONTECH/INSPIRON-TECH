@@ -6,7 +6,18 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronRight, ChevronDown, Wifi, Shield, Zap } from 'lucide-react';
 
-const navTree = [
+interface NavChild {
+    href: string;
+    label: string;
+    external?: boolean;
+}
+
+interface NavGroup {
+    label: string;
+    children: NavChild[];
+}
+
+const navTree: NavGroup[] = [
     {
         label: '[+] ROOT',
         children: [

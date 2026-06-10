@@ -122,13 +122,10 @@ export default function LandingPage() {
                             href="https://healthcare.inspiron.tech"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="group block p-10 md:p-12 rounded-[40px] border transition-all duration-300"
+                            className="group block p-10 md:p-12 rounded-[40px] border border-[#2DD4BF]/20 hover:border-[#2DD4BF]/50 transition-all duration-300"
                             style={{
                                 background: 'linear-gradient(135deg, rgba(45,212,191,0.06) 0%, rgba(4,47,46,0.15) 100%)',
-                                borderColor: 'rgba(45,212,191,0.2)',
                             }}
-                            onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(45,212,191,0.5)'; }}
-                            onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(45,212,191,0.2)'; }}
                         >
                             {/* Header row */}
                             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-8">
