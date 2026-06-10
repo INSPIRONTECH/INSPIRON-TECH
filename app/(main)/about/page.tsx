@@ -112,6 +112,14 @@ const credentials = [
         linkText: 'View Profile ↗',
     },
     {
+        // Meta Business Manager → Access verification status: Verified (Tech Provider) · Dec 2025
+        // WhatsApp Business API / Cloud API access credential — used to build HEALTHCARE INSPIRON WABA
+        label: 'Meta Verified Tech Provider',
+        sublabel: 'Business verification: Verified · Access verification: Tech Provider · Dec 10, 2025',
+        link: null,
+        linkText: null,
+    },
+    {
         label: 'BASIS Membership',
         sublabel: 'Bangladesh Association of Software & Information Services — Application Pending',
         link: null,
@@ -319,6 +327,43 @@ export default function AboutPage() {
                                                 <strong className="text-institutional-white">This is where the zero-approximation doctrine was born.</strong>{' '}
                                                 Not in a classroom — inside an ISP&apos;s accounts department, where every number answered to the NBR.
                                             </p>
+                                        </div>
+                                    )}
+
+                                    {/* HEALTHCARE INSPIRON LIS — Origin to Product Callout */}
+                                    {/*
+                                     * Opus doctrine: "HEALTHCARE INSPIRON starts with a LIS
+                                     * and is being built into Bangladesh's connected diagnostic platform."
+                                     * Honest framing: LIS is live. Ecosystem is the direction. No overclaims.
+                                     */}
+                                    {index === 2 && (
+                                        <div className="mb-6 p-5 rounded-[20px] border" style={{ background: 'rgba(45,212,191,0.04)', borderColor: 'rgba(45,212,191,0.18)' }}>
+                                            <p className="text-[10px] font-black uppercase tracking-widest mb-2" style={{ color: '#2DD4BF' }}>
+                                                🔬 What This Built → Now Live
+                                            </p>
+                                            <p className="text-gray-300 text-sm font-light leading-relaxed">
+                                                Six years inside IVD diagnostics — watching labs re-type CBC results by hand,
+                                                disconnect analyzers, and lose data before it could reach any national record —
+                                                became the foundation for a different kind of product.
+                                                <br /><br />
+                                                <strong className="text-institutional-white">HEALTHCARE INSPIRON LIS is live</strong>
+                                                {' '}— a full Laboratory Information System built from the ground up for Bangladesh&apos;s
+                                                private diagnostic labs. Mindray analyzer auto-integration via TCP/IP.
+                                                Bilingual Bangla/English A4 reports. Being built to submit to the DGHS Shared
+                                                Health Record — the national health database.
+                                                <br /><br />
+                                                The same domain knowledge, reimagined as software.
+                                                &ldquo;We&apos;re live and looking for our first labs to build alongside.&rdquo;
+                                            </p>
+                                            <a
+                                                href="https://healthcare.inspiron.tech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center gap-2 mt-4 text-xs font-bold uppercase tracking-widest hover:underline"
+                                                style={{ color: '#2DD4BF' }}
+                                            >
+                                                See the live system → healthcare.inspiron.tech ↗
+                                            </a>
                                         </div>
                                     )}
 

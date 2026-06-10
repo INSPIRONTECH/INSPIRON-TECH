@@ -101,7 +101,105 @@ export default function LandingPage() {
                 </div>
             </section>
 
+            {/* OUR PRODUCTS ─────────────────────────────────────────────── */}
+            {/*
+             * Opus doctrine: "a product with its own brand deserves its own home.
+             * Link to it prominently from inspiron.tech."
+             * Frame: LIS is live, ecosystem is the direction — not the claim.
+             */}
+            <section className="py-24 px-5 md:px-8 border-t border-white/5">
+                <div className="max-w-6xl mx-auto">
+                    <p className="text-electric-cyan text-xs font-black uppercase tracking-widest mb-4 text-center">
+                        Built by INSPIRON TECH
+                    </p>
+                    <h2 className="font-institutional text-2xl md:text-4xl font-medium uppercase tracking-tight mb-12 text-center">
+                        Our Products
+                    </h2>
+
+                    {/* HEALTHCARE INSPIRON LIS — single flagship card */}
+                    <div className="max-w-3xl mx-auto">
+                        <a
+                            href="https://healthcare.inspiron.tech"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group block p-10 md:p-12 rounded-[40px] border transition-all duration-300"
+                            style={{
+                                background: 'linear-gradient(135deg, rgba(45,212,191,0.06) 0%, rgba(4,47,46,0.15) 100%)',
+                                borderColor: 'rgba(45,212,191,0.2)',
+                            }}
+                            onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(45,212,191,0.5)'; }}
+                            onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(45,212,191,0.2)'; }}
+                        >
+                            {/* Header row */}
+                            <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-8">
+                                <div>
+                                    {/* Live badge */}
+                                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full mb-4 text-[9px] font-black uppercase tracking-[0.18em] border"
+                                        style={{ borderColor: 'rgba(57,211,83,0.3)', background: 'rgba(57,211,83,0.08)', color: '#39d353' }}>
+                                        <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: '#39d353' }} />
+                                        Live Now
+                                    </div>
+                                    <h3 className="font-institutional text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2" style={{ color: '#2DD4BF' }}>
+                                        HEALTHCARE INSPIRON
+                                    </h3>
+                                    <p className="text-sm font-bold uppercase tracking-widest" style={{ color: 'rgba(255,255,255,0.4)' }}>
+                                        Laboratory Information System
+                                    </p>
+                                </div>
+                                <span className="shrink-0 self-start flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest transition-colors"
+                                    style={{ color: '#2DD4BF' }}>
+                                    See the live system ↗
+                                </span>
+                            </div>
+
+                            {/* Origin + current narrative */}
+                            <p className="text-gray-300 text-sm leading-relaxed font-light mb-6">
+                                Six years running an IVD medical device distribution business — installing 100+ analyzers,
+                                watching labs struggle with manual registers and disconnected machines — built the domain
+                                knowledge that became this system.
+                            </p>
+                            <p className="text-gray-300 text-sm leading-relaxed font-light mb-8">
+                                <strong className="text-institutional-white">HEALTHCARE INSPIRON starts with a Laboratory Information System</strong>{' '}
+                                and is being built into Bangladesh&apos;s connected diagnostic platform — from a single-room
+                                upazila clinic to a multi-partner diagnostic centre.
+                            </p>
+
+                            {/* 4 moats */}
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                                {[
+                                    { label: '5-min Mindray\nintegration', color: '#39d353' },
+                                    { label: 'Bilingual\nA4 reports', color: '#2DD4BF' },
+                                    { label: 'Built for\nDGHS SHR', color: '#2DD4BF' },
+                                    { label: 'Claude AI\nsafety layer*', color: '#F59E0B' },
+                                ].map((m, i) => (
+                                    <div key={i} className="p-4 rounded-2xl text-center border"
+                                        style={{ background: `${m.color}08`, borderColor: `${m.color}20` }}>
+                                        <p className="text-[10px] font-bold uppercase tracking-wider leading-tight whitespace-pre-line"
+                                            style={{ color: m.color }}>
+                                            {m.label}
+                                        </p>
+                                    </div>
+                                ))}
+                            </div>
+
+                            <p className="text-[10px] text-gray-600 mb-6">
+                                * Claude AI safety layer in development — not yet deployed clinically.
+                                DGHS SHR submission pipeline being built — not yet live.
+                                &ldquo;We&apos;re live and looking for our first labs to build alongside.&rdquo;
+                            </p>
+
+                            <div className="flex items-center gap-2 text-[11px] font-black uppercase tracking-widest"
+                                style={{ color: '#2DD4BF' }}>
+                                healthcare.inspiron.tech
+                                <span className="group-hover:translate-x-1 transition-transform">→</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
             {/* SOCIAL PROOF — Real, verifiable */}
+
             <section className="py-24 px-5 md:px-8 border-t border-white/5">
                 <div className="max-w-4xl mx-auto text-center">
                     <div className="grid md:grid-cols-4 gap-8 mb-16">

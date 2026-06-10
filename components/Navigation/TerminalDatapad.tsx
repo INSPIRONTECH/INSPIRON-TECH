@@ -22,6 +22,12 @@ const navTree = [
         ],
     },
     {
+        label: '[+] PRODUCTS',
+        children: [
+            { href: 'https://healthcare.inspiron.tech', label: '/healthcare-lis ↗', external: true },
+        ],
+    },
+    {
         label: '[+] COMMAND',
         children: [
             { href: '/about', label: '/about' },
@@ -29,6 +35,7 @@ const navTree = [
         ],
     },
 ];
+
 
 const systemStatus = [
     { icon: Wifi, label: 'SYSTEM', value: 'ONLINE', color: 'text-electric-cyan' },
@@ -122,16 +129,27 @@ export const TerminalDatapad = ({
 
                                     {expanded === group.label && (
                                         <div className="ml-4 border-l border-electric-cyan/20 pl-3 space-y-1 mt-1">
-                                            {group.children.map(({ href, label }) => (
-                                                <Link key={href} href={href} onClick={onClose}
-                                                    className={`block py-2 text-[11px] tracking-widest transition-colors
+                                            {group.children.map(({ href, label, external }) => (
+                                                external ? (
+                                                    <a key={href} href={href}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        onClick={onClose}
+                                                        className="block py-2 text-[11px] tracking-widest transition-colors text-[#2DD4BF] hover:text-[#2DD4BF]/70">
+                                                        {label}
+                                                    </a>
+                                                ) : (
+                                                    <Link key={href} href={href} onClick={onClose}
+                                                        className={`block py-2 text-[11px] tracking-widest transition-colors
                             ${pathname === href
-                                                            ? 'text-electric-cyan'
-                                                            : 'text-white/50 hover:text-electric-cyan'}`}>
-                                                    {label}
-                                                </Link>
+                                                                ? 'text-electric-cyan'
+                                                                : 'text-white/50 hover:text-electric-cyan'}`}>
+                                                        {label}
+                                                    </Link>
+                                                )
                                             ))}
                                         </div>
+
                                     )}
                                 </div>
                             ))}

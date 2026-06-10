@@ -17,7 +17,7 @@ export const InstitutionalHero = () => {
 
             <div className="relative z-10 text-center max-w-5xl">
                 {/* Trust Badges */}
-                <div className="relative z-20 flex flex-col md:flex-row gap-4 justify-center mb-10">
+                <div className="relative z-20 flex flex-col md:flex-row gap-4 justify-center mb-10 flex-wrap">
                     {/* Manager.io Official Partner */}
                     <a
                         href="https://www.manager.io/advisors"
@@ -40,6 +40,25 @@ export const InstitutionalHero = () => {
                         Listed Manager.io Accountant &amp; Developer
                     </a>
 
+                    {/* Meta Verified Tech Provider */}
+                    {/*
+                     * Credential: Meta Business Manager → Access verification status → Verified (Tech Provider)
+                     * Business verification status → Verified Dec 10, 2025
+                     * This is the WhatsApp Business API / Cloud API access credential.
+                     */}
+                    <span
+                        className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-[11px] font-black uppercase tracking-widest border"
+                        style={{
+                            background: 'rgba(24,119,242,0.08)',
+                            borderColor: 'rgba(24,119,242,0.30)',
+                            color: '#5B9CF6',
+                        }}
+                        title="Meta Business Manager — Access verification status: Verified Tech Provider · Dec 2025"
+                    >
+                        <BadgeCheck size={14} style={{ color: '#5B9CF6' }} />
+                        Meta Verified Tech Provider
+                    </span>
+
                     {/* n-Law Protocol */}
                     <Link
                         href="/n-law"
@@ -49,6 +68,7 @@ export const InstitutionalHero = () => {
                         n-Law Protocol Active
                     </Link>
                 </div>
+
 
                 {/* Main Headline — Plain Language */}
                 <h1 className="font-institutional text-[2.75rem] leading-[0.95] md:text-7xl lg:text-8xl font-medium text-institutional-white uppercase tracking-tighter mb-6 md:mb-8">

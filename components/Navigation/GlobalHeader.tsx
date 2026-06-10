@@ -39,6 +39,19 @@ export const GlobalHeader = () => {
                                 {link.label}
                             </Link>
                         ))}
+
+                        {/* HEALTHCARE INSPIRON — flagship product link, visually distinct */}
+                        <a
+                            href="https://healthcare.inspiron.tech"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-institutional text-[11px] font-bold uppercase tracking-widest transition-colors"
+                            style={{ color: '#2DD4BF', borderBottom: '1px solid rgba(45,212,191,0.35)', paddingBottom: '1px' }}
+                            title="HEALTHCARE INSPIRON LIS — live product"
+                        >
+                            Healthcare LIS ↗
+                        </a>
+
                         <a href="https://wa.me/8801719300849"
                             className="flex items-center gap-2 bg-electric-cyan text-deep-navy-black
                          px-6 py-3 rounded-xl font-black uppercase text-[10px]
