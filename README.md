@@ -1,5 +1,5 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--  WEB-COMMAND-HQ · INSPIRON TECH · README v2026.1                      -->
+<!--  INSPIRON-TECH · INSPIRON TECH · README v2026.1                      -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -37,7 +37,7 @@
 
 ## 01 · Overview
 
-**WEB-COMMAND-HQ** is the production codebase for [INSPIRON TECH](https://inspiron.tech) — Bangladesh's only listed Manager.io advisor. This repository is not a template. It is a precision-engineered web system built to convert institutional authority into verifiable client outcomes.
+**INSPIRON-TECH** is the production codebase for [INSPIRON TECH](https://inspiron.tech) — Bangladesh's only listed Manager.io advisor. This repository is not a template. It is a precision-engineered web system built to convert institutional authority into verifiable client outcomes.
 
 Every component, route, and design token follows the **n-Law Protocol** — a set of geometric and operational rules governing pixel integrity, brand consistency, and zero-approximation logic.
 
@@ -63,7 +63,7 @@ Every component, route, and design token follows the **n-Law Protocol** — a se
 ## 03 · Repository Structure
 
 ```
-WEB-COMMAND-HQ/
+INSPIRON-TECH/
 │
 ├── app/
 │   ├── (main)/                      # Route group — GlobalHeader + GlobalFooter
@@ -175,8 +175,8 @@ All public routes use this group. The layout wraps every child with `<GlobalHead
 
 ```bash
 # 1. Clone
-git clone https://github.com/INSPIRON-TECH-BD/WEB-COMMAND-HQ.git
-cd WEB-COMMAND-HQ
+git clone https://github.com/INSPIRONTECH/INSPIRON-TECH.git
+cd INSPIRON-TECH
 
 # 2. Install
 npm install
