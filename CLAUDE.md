@@ -1,5 +1,5 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--  CLAUDE.md · WEB-COMMAND-HQ · CLAUDE AGENT CONTEXT FILE               -->
+<!--  CLAUDE.md · INSPIRON-TECH · CLAUDE AGENT CONTEXT FILE                -->
 <!--  Read this first. Every time. No exceptions.                           -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
@@ -23,10 +23,10 @@ ONE BAD PUSH = LIVE SITE IS BROKEN.
 
 ---
 
-# CLAUDE AGENT — WEB-COMMAND-HQ CONTEXT BRIEF
+# CLAUDE AGENT — INSPIRON-TECH CONTEXT BRIEF
 
 **Project:** INSPIRON TECH — Official Website & Institutional Web System  
-**Codebase:** `WEB-COMMAND-HQ`  
+**Codebase:** `INSPIRON-TECH`  
 **Operator:** MD ABU HASAN (CyberHasan) · Dhaka, Bangladesh · UTC+06  
 **Contact:** hello@inspiron.tech · WhatsApp: +880 1719-300849  
 **Live URL:** https://inspiron.tech  
@@ -51,7 +51,7 @@ You are **GENERAL Claude**. You think before you act. You plan before you execut
 ## OPERATION CONTEXT
 
 This codebase lives inside **OPERATION-NEURAL-BRIDGE**, specifically:  
-`SECTOR-BRAVO-OPERATIONS → WEB-COMMAND-HQ`
+`SECTOR-BRAVO-OPERATIONS → INSPIRON-TECH`
 
 The broader operation structure:
 - `SECTOR-ALPHA-COMMAND` — Knowledge base, identity, strategy, IoT R&D
@@ -95,7 +95,7 @@ Full text: `docs/THE_n_LAW.md` — read it if you need to understand design deci
 ## ARCHITECTURE — KNOW THE STRUCTURE
 
 ```
-WEB-COMMAND-HQ/
+INSPIRON-TECH/
 ├── app/
 │   ├── (main)/                  ← Route group: ALL public pages live here
 │   │   ├── layout.tsx           ← GlobalHeader + main + GlobalFooter shell
