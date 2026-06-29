@@ -80,7 +80,8 @@ type ActiveMode =
     | 'profile' | 'audit'
     | 'upwork-hero' | 'upwork-before-after' | 'upwork-process' | 'upwork-pricing'
     | 'forum-header' | 'forum-card'
-    | 'logo-square' | 'logo-round' | 'logo-custom' | 'logo-svg';
+    | 'logo-square' | 'logo-round' | 'logo-custom' | 'logo-svg'
+    | 'hi-facebook-cover' | 'hi-profile' | 'hi-post-feature' | 'hi-post-bilingual';
 
 
 const PLATFORMS = [
@@ -119,6 +120,11 @@ const PLATFORMS = [
     // Manager.io Forum
     { id: 'forum-header', icon: Layout, label: 'Forum Header', canvas: '1110×300' },
     { id: 'forum-card', icon: Users, label: 'Forum Card', canvas: '590×300' },
+    // Healthcare Inspiron
+    { id: 'hi-facebook-cover', icon: Monitor, label: 'HI FB Cover', canvas: '820×312' },
+    { id: 'hi-profile',        icon: Users,   label: 'HI Profile',  canvas: '800×800' },
+    { id: 'hi-post-feature',   icon: Monitor, label: 'HI Post',     canvas: '1080×1080' },
+    { id: 'hi-post-bilingual', icon: Monitor, label: 'HI Bilingual',canvas: '1080×1080' },
     // Brand Logo
     { id: 'logo-square', icon: Layers, label: 'Logo Square', canvas: 'Custom' },
     { id: 'logo-round',  icon: Circle, label: 'Logo Round',  canvas: 'Custom' },
@@ -157,6 +163,10 @@ const NAV_GROUPS = [
         modes: ['forum-header', 'forum-card'],
     },
     {
+        id: 'healthcare-inspiron', label: 'Healthcare', dot: '#2DD4BF',
+        modes: ['hi-facebook-cover', 'hi-profile', 'hi-post-feature', 'hi-post-bilingual'],
+    },
+    {
         id: 'brand', label: 'Brand', dot: '#FFD700',
         modes: ['logo-square', 'logo-round', 'logo-custom', 'logo-svg'],
     },
@@ -189,6 +199,10 @@ const MODE_SCALES: Record<ActiveMode, number> = {
     'upwork-pricing': 0.38,
     'forum-header': 0.6,
     'forum-card': 0.9,
+    'hi-facebook-cover': 0.65,
+    'hi-profile':        0.8,
+    'hi-post-feature':   0.4,
+    'hi-post-bilingual': 0.4,
     'logo-square': 0.8,
     'logo-round':  0.8,
     'logo-custom': 0.7,
@@ -228,6 +242,43 @@ const MasterLogo = ({ idSuffix }: { idSuffix: string }) => (
         </g>
         <path d="M321.346 350c-10.6-1-19.3-6.1-26-15.3-.3-.6-4.3-7.3-10-16.5-49.2-81.1-52.8-87.8-52.6-88.4 5.5-8.8 19.4-31.2 27.4-43.8 3.3-5.4 5.7-9 6-9.4 1.6 2.7 27.4 45.3 49.4 81.8 17 28.2 31.9 52.8 32.2 53.5 4.2 7 4.2 15.2 0 22.5-5.2 9-15.4 14.9-25.6 14.9h-.8z" fill="#00D2FF" />
         <circle cx="321.346" cy="37.5" r="37.5" fill="#FFD700" />
+    </svg>
+);
+
+/**
+ * HEALTHCARE INSPIRON MARK — Same geometry as Sentry Icon, HI colorway
+ * Teal fill: #2DD4BF · Amber dot: #F59E0B
+ */
+const HIIcon = ({ size = 48 }: { size?: number }) => (
+    <svg
+        width={size}
+        height={size}
+        viewBox="0 0 358.846 350.3"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="HEALTHCARE INSPIRON Mark"
+    >
+        <defs>
+            <mask id="hi-gap" x="-1075.154" y="-1075" width="3000" height="3000" maskUnits="userSpaceOnUse">
+                <path fill="#fff" d="M-1075.154-1075h3000v3000h-3000z" />
+                <path
+                    d="M321.346 350c-10.6-1-19.3-6.1-26-15.3-.3-.6-4.3-7.3-10-16.5-49.2-81.1-52.8-87.8-52.6-88.4 5.5-8.8 19.4-31.2 27.4-43.8 3.3-5.4 5.7-9 6-9.4 1.6 2.7 27.4 45.3 49.4 81.8 17 28.2 31.9 52.8 32.2 53.5 4.2 7 4.2 15.2 0 22.5-5.2 9-15.4 14.9-25.6 14.9h-.8z"
+                    style={{ fill: 'none', stroke: '#000', strokeWidth: '24px' }}
+                />
+            </mask>
+        </defs>
+        <g mask="url(#hi-gap)">
+            <path
+                d="M87.046 349.3c-30.8 0-57.9-14.8-74.3-40.9-15.4-24.2-16.9-55-4.2-80.5 7.8-14.2 32.9-53.9 57.4-92.4 15.1-23.7 29.3-46.1 39.3-62.6 2.7-4.3 4.8-7.8 8.4-11.5 11.4-13.1 28.1-20.6 45.6-20.6s33.8 8.1 43.8 22.1c5.5 7.8,9.1,16.9,10.3 26.4.3 2.5-.4 4.8-2.1 7.5-1.9 3.3-21.8 34.6-21.8 34.6-.6.9-1.2 1.9-1.8 2.8-1.3 2.2-2.4 4.2-3.9 4.2s-1.2-.3-1.8-.9c-4.2-4.9-8.2-11.5-12-18-2.4-4-4.5-7.9-6.9-11.2-1.8-2.8-4.8-4.5-7.8-4.5s-4.2 1-5.8 3c-5.2 8.1-27.5 43.8-45.6 72.7-11.8 18.9-22.1 35.3-25.4 40.4-2.2 3.6-5.2 8.1-7.9 12.5-1.6 2.7-3.3 5.4-4.8 7.8-.6 1-1.3 2.1-1.9 3.1-2.5 4-4.6 7.5-6.1 11.1-5.2 12.4-.4 27.3 10.9 34.6,5.5 3.6 11.4 5.4 17.5 5.4 12.3 0,25-7.6,32.9-20,5.5-8.1,23.6-37,45-70.6,31.7-50.4 67.9-107.5 76.1-118.7 6.3-6.7 14.5-10.8 22.7-10.8 9.3 0,18.2 5.1,23.2 13.1,4.8 7.9 5.4 16.8 1 24.7-3.6 7-6.6 11.3-10.9 18-3.1 4.9-7.3 11.2-13 20.6-14.4 22.5-31 48.7-47 74.2-24.4 38.9-47.7 75.7-55.3 86.8-17.5 24.1-45.5 38.6-75.1 38.6z"
+                fill="#2DD4BF"
+            />
+        </g>
+        <path
+            d="M321.346 350c-10.6-1-19.3-6.1-26-15.3-.3-.6-4.3-7.3-10-16.5-49.2-81.1-52.8-87.8-52.6-88.4 5.5-8.8 19.4-31.2 27.4-43.8 3.3-5.4 5.7-9 6-9.4 1.6 2.7 27.4 45.3 49.4 81.8 17 28.2 31.9 52.8 32.2 53.5 4.2 7 4.2 15.2 0 22.5-5.2 9-15.4 14.9-25.6 14.9h-.8z"
+            fill="#2DD4BF"
+        />
+        <circle cx="321.346" cy="37.5" r="37.5" fill="#F59E0B" />
     </svg>
 );
 
@@ -320,6 +371,21 @@ export default function SocialAssetsPage() {
         name: 'MD ABU HASAN',
         role: 'Founder & ERP Architect',
         website: 'inspiron.tech',
+    });
+
+    const [hiData, setHiData] = useState({
+        // Cover
+        badge: "Bangladesh's Most Advanced Lab System",
+        headline: "Type the patient once.",
+        highlight: "The report builds itself.",
+        subtext: "Built from the ground up for Bangladeshi diagnostic labs.",
+        url: "healthcare.inspiron.tech",
+        waba: "01719-300849",
+        // Bilingual post
+        enHeadline: "Type the patient once. The report builds itself.",
+        bdHeadline: "রোগীর তথ্য একবার দিন। রিপোর্ট নিজেই তৈরি হয়ে যায়।",
+        stat: "৳3,000/mo",
+        statLabel: "Standard Plan",
     });
 
     // ─── LOGIC HANDLERS ─────────────────────────────────────────────────────
@@ -778,6 +844,49 @@ export default function SocialAssetsPage() {
                             </div>
                         )}
 
+                        {/* HEALTHCARE INSPIRON CONTROLS */}
+                        {activeMode.startsWith('hi-') && (
+                            <div suppressHydrationWarning className="space-y-6 animate-in fade-in slide-in-from-left-4 duration-300 px-6 pb-4">
+                                <div className="p-3 bg-[#2DD4BF]/10 border border-[#2DD4BF]/30 rounded text-[10px] text-[#2DD4BF] font-mono uppercase tracking-widest">
+                                    MODE: HEALTHCARE INSPIRON — {activeMode.replace('hi-', '').replace(/-/g, ' ')}
+                                </div>
+                                <InstitutionalInput label="Badge / Tagline"
+                                    value={hiData.badge} onChange={v => setHiData({ ...hiData, badge: v })} />
+                                <InstitutionalInput label="EN Headline"
+                                    value={hiData.headline} onChange={v => setHiData({ ...hiData, headline: v })} />
+                                <InstitutionalInput label="Teal Highlight"
+                                    value={hiData.highlight} onChange={v => setHiData({ ...hiData, highlight: v })} />
+                                <InstitutionalTextArea label="Sub-Narrative"
+                                    value={hiData.subtext} onChange={v => setHiData({ ...hiData, subtext: v })} rows={2} />
+                                {activeMode === 'hi-post-bilingual' && (
+                                    <>
+                                        <div className="h-px bg-white/10" />
+                                        <InstitutionalTextArea label="বাংলা হেডলাইন (BD Headline)"
+                                            value={hiData.bdHeadline}
+                                            onChange={v => setHiData({ ...hiData, bdHeadline: v })} rows={3} />
+                                    </>
+                                )}
+                                {(activeMode === 'hi-post-feature' || activeMode === 'hi-post-bilingual') && (
+                                    <>
+                                        <div className="h-px bg-white/10" />
+                                        <InstitutionalInput label="Stat Value (e.g. ৳3,000/mo)"
+                                            value={hiData.stat} onChange={v => setHiData({ ...hiData, stat: v })} />
+                                        <InstitutionalInput label="Stat Label"
+                                            value={hiData.statLabel} onChange={v => setHiData({ ...hiData, statLabel: v })} />
+                                    </>
+                                )}
+                                <div className="h-px bg-white/10" />
+                                <InstitutionalInput label="URL" value={hiData.url} onChange={v => setHiData({ ...hiData, url: v })} />
+                                {activeMode === 'hi-facebook-cover' && (
+                                    <InstitutionalInput label="WABA Number" value={hiData.waba}
+                                        onChange={v => setHiData({ ...hiData, waba: v })} />
+                                )}
+                                <div className="p-3 bg-[#2DD4BF]/5 border border-[#2DD4BF]/20 rounded text-[10px] text-[#2DD4BF]/70 font-mono leading-relaxed">
+                                    &gt;&gt; HI DOCTRINE: Meghna = demo lab only · DGHS = "being built" · no patient data
+                                </div>
+                            </div>
+                        )}
+
                     {/* ─── EXPORT CONFIG PANEL (always visible) ─── */}
                     <div className="p-6 border-t-2 border-white/20 space-y-5">
                         <div className="flex items-center gap-2">
@@ -1204,7 +1313,7 @@ export default function SocialAssetsPage() {
                                     </div>
                                 )}
                                 <div data-export-canvas className={`w-[1211px] h-[681px] ${theme.bg} relative overflow-hidden flex items-center justify-center text-center ${theme.border} border transition-colors duration-500`}>
-                                    <div className="absolute inset-0 bg-gradient-to-r from-electric-cyan/20 via-transparent to-emerald-400/20" />
+                                    <div className="absolute inset-0 bg-gradient-to-r from-[#00D2FF]/20 via-transparent to-[#002147]/20" />
                                     <div className={`absolute inset-0 ${theme.grid} [background-size:30px_30px]`} />
 
                                     <div className="relative z-10 px-20 py-16 max-w-4xl mx-auto">
@@ -1459,6 +1568,121 @@ export default function SocialAssetsPage() {
                                     </div>
                                 </div>
                                 <div className="mt-2 text-center text-xs text-gray-500 font-mono opacity-50">590 × 300 PX // FORUM_CARD (PNG)</div>
+                            </div>
+                        )}
+
+                        {/* HI FACEBOOK COVER (820 × 312) */}
+                        {activeMode === 'hi-facebook-cover' && (
+                            <div style={{ transform: `scale(${scale})` }} className="transition-transform duration-200 ease-out shadow-2xl origin-center flex-shrink-0 w-fit">
+                                <div data-export-canvas className="w-[820px] h-[312px] bg-[#010409] relative overflow-hidden flex items-center px-12 border border-white/10">
+                                    {/* Blueprint grid — teal tint for HI */}
+                                    <div className="absolute inset-0 pointer-events-none"
+                                        style={{ backgroundImage: 'linear-gradient(rgba(45,212,191,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(45,212,191,0.05) 1px, transparent 1px)', backgroundSize: '25px 25px' }} />
+                                    {/* Left zone — mobile safe */}
+                                    <div className="relative z-10 flex flex-col gap-3 max-w-[380px]">
+                                        <div className="flex items-center gap-3">
+                                            <HIIcon size={40} />
+                                            <div>
+                                                <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#94A3B8]">HEALTHCARE</div>
+                                                <div className="text-2xl font-medium text-[#2DD4BF] tracking-tight leading-none">INSPIRON</div>
+                                            </div>
+                                        </div>
+                                        <div className="w-24 h-[2px] bg-[#2DD4BF]" />
+                                        <div className="text-[15px] font-medium text-white leading-tight">
+                                            {hiData.headline}<br />
+                                            <span className="text-[#2DD4BF]">{hiData.highlight}</span>
+                                        </div>
+                                        <div className="text-[12px] font-light text-[#94A3B8]">{hiData.subtext}</div>
+                                        <div className="text-[11px] text-[#94A3B8]">{hiData.waba} · {hiData.url}</div>
+                                    </div>
+                                    {/* Right zone — desktop bonus */}
+                                    <div className="relative z-10 ml-auto">
+                                        <div className="w-[280px] h-[180px] bg-[#0D1117] border border-[#2DD4BF]/30 rounded-xl flex items-center justify-center" style={{ transform: 'rotate(-3deg)' }}>
+                                            <div className="text-center p-4">
+                                                <div className="text-[10px] font-mono uppercase tracking-widest text-[#2DD4BF] mb-2">CBC Report Preview</div>
+                                                <div className="text-[28px] font-bold text-white">9,000</div>
+                                                <div className="text-[10px] text-[#94A3B8]">WBC · 4,000–11,000</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="mt-2 text-center text-xs text-gray-500 font-mono opacity-50">820 × 312 PX // HI_FACEBOOK_COVER</div>
+                            </div>
+                        )}
+
+                        {/* HI PROFILE (800 × 800) */}
+                        {activeMode === 'hi-profile' && (
+                            <div style={{ transform: `scale(${scale})` }} className="transition-transform duration-200 ease-out shadow-2xl origin-center flex-shrink-0 w-fit">
+                                <div data-export-canvas className="w-[800px] h-[800px] bg-[#010409] relative overflow-hidden flex items-center justify-center border border-white/10">
+                                    <div className="absolute inset-0 pointer-events-none"
+                                        style={{ backgroundImage: 'linear-gradient(rgba(45,212,191,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(45,212,191,0.04) 1px, transparent 1px)', backgroundSize: '25px 25px' }} />
+                                    <div className="relative z-10" style={{ filter: 'drop-shadow(0 0 24px rgba(45,212,191,0.4))' }}>
+                                        <HIIcon size={420} />
+                                    </div>
+                                </div>
+                                <div className="mt-2 text-center text-xs text-gray-500 font-mono opacity-50">800 × 800 PX // HI_PROFILE (export → crop to circle at 170×170 on FB)</div>
+                            </div>
+                        )}
+
+                        {/* HI POST — FEATURE (1080 × 1080) */}
+                        {activeMode === 'hi-post-feature' && (
+                            <div style={{ transform: `scale(${scale})` }} className="transition-transform duration-200 ease-out shadow-2xl origin-center flex-shrink-0 w-fit">
+                                <div data-export-canvas className="w-[1080px] h-[1080px] bg-[#010409] relative overflow-hidden flex flex-col justify-between p-16 border border-white/10">
+                                    <div className="absolute inset-0 pointer-events-none"
+                                        style={{ backgroundImage: 'linear-gradient(rgba(45,212,191,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(45,212,191,0.05) 1px, transparent 1px)', backgroundSize: '25px 25px' }} />
+                                    {/* Left accent bar */}
+                                    <div className="absolute left-10 top-16 bottom-16 w-[3px] bg-[#2DD4BF]" />
+                                    {/* Top wordmark */}
+                                    <div className="relative z-10 flex items-center gap-3 pl-6">
+                                        <HIIcon size={32} />
+                                        <span className="text-[14px] font-medium text-[#2DD4BF] tracking-tight">HEALTHCARE INSPIRON</span>
+                                    </div>
+                                    {/* Center headline */}
+                                    <div className="relative z-10 pl-6">
+                                        <div className="text-[48px] font-medium text-white leading-tight mb-4 font-institutional">
+                                            {hiData.headline}<br />
+                                            <span className="text-[#2DD4BF]">{hiData.highlight}</span>
+                                        </div>
+                                        <div className="text-[20px] font-light text-[#94A3B8] leading-relaxed">{hiData.subtext}</div>
+                                    </div>
+                                    {/* Bottom strip */}
+                                    <div className="relative z-10 flex items-center justify-between bg-[#0D1117] -mx-16 -mb-16 px-16 py-5 border-t border-[#2DD4BF]/20">
+                                        <div>
+                                            <div className="text-[28px] font-bold text-[#F59E0B]">{hiData.stat}</div>
+                                            <div className="text-[11px] font-mono uppercase tracking-widest text-[#94A3B8]">{hiData.statLabel}</div>
+                                        </div>
+                                        <div className="text-[13px] text-[#94A3B8]">{hiData.url}</div>
+                                    </div>
+                                </div>
+                                <div className="mt-2 text-center text-xs text-gray-500 font-mono opacity-50">1080 × 1080 PX // HI_POST_FEATURE</div>
+                            </div>
+                        )}
+
+                        {/* HI POST — BILINGUAL (1080 × 1080) */}
+                        {activeMode === 'hi-post-bilingual' && (
+                            <div style={{ transform: `scale(${scale})` }} className="transition-transform duration-200 ease-out shadow-2xl origin-center flex-shrink-0 w-fit">
+                                <div data-export-canvas className="w-[1080px] h-[1080px] bg-[#010409] relative overflow-hidden flex flex-col border border-white/10">
+                                    <div className="absolute inset-0 pointer-events-none"
+                                        style={{ backgroundImage: 'linear-gradient(rgba(45,212,191,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(45,212,191,0.04) 1px, transparent 1px)', backgroundSize: '25px 25px' }} />
+                                    {/* Top half — EN */}
+                                    <div className="flex-1 relative z-10 flex flex-col items-center justify-center px-16 text-center">
+                                        <div className="text-[38px] font-medium text-white leading-tight font-institutional">{hiData.enHeadline}</div>
+                                    </div>
+                                    {/* Teal divider */}
+                                    <div className="h-[3px] bg-[#2DD4BF] w-full relative z-10" />
+                                    {/* Bottom half — BD */}
+                                    <div className="flex-1 relative z-10 flex flex-col items-center justify-center px-16 text-center">
+                                        <div className="text-[34px] font-bold text-[#2DD4BF] leading-snug" style={{ fontFamily: "'Li Ador Noirrit', sans-serif" }}>
+                                            {hiData.bdHeadline}
+                                        </div>
+                                    </div>
+                                    {/* Bottom wordmark */}
+                                    <div className="relative z-10 flex items-center justify-center gap-2 pb-8">
+                                        <HIIcon size={20} />
+                                        <span className="text-[12px] font-medium text-[#94A3B8]">HEALTHCARE INSPIRON · {hiData.url}</span>
+                                    </div>
+                                </div>
+                                <div className="mt-2 text-center text-xs text-gray-500 font-mono opacity-50">1080 × 1080 PX // HI_POST_BILINGUAL</div>
                             </div>
                         )}
 
