@@ -115,7 +115,7 @@ export default function AgroCaseStudy() {
                             <p className="text-gray-500 text-sm mb-8 max-w-xs">
                                 We are currently accepting 1 new industrial client for Q1 2026.
                             </p>
-                            <Link href="https://wa.me/8801601618030" className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all">
+                            <Link href="https://wa.me/8801719300849" className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all">
                                 Schedule Briefing
                             </Link>
                         </div>

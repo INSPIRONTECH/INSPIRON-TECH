@@ -36,9 +36,9 @@ export default function DataDeletion() {
           },
           {
             method: 'WhatsApp',
-            detail: '+880 1601-618030',
+            detail: '+880 1719-300849',
             note: 'Send the message "DELETE" from the number you used to interact with us',
-            href: 'https://wa.me/8801601618030',
+            href: 'https://wa.me/8801719300849',
           },
         ].map(({ method, detail, note, href }) => (
           <div key={method} className="bg-institutional-white/5 border border-institutional-white/10 rounded-lg p-5">
