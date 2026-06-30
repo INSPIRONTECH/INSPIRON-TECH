@@ -160,6 +160,34 @@ body {
   font-weight: 700;
 }
 
+/* LI ADOR NOIRRIT — BD script font for Healthcare Inspiron bilingual assets
+   SOURCE: SECTOR-BRAVO-OPERATIONS/INSPIRON-SUITE/tax-suite/bd-compliance/fonts/
+   DEPLOYMENT: Copy the 3 TTF files to public/fonts/ before pushing to Vercel.
+     cp INSPIRON-SUITE/tax-suite/bd-compliance/fonts/LiAdorNoirrit-*.ttf INSPIRON-TECH/public/fonts/
+   LOCAL DEV: Works immediately once files are in public/fonts/.
+   DO NOT substitute Noto Sans Bengali — Li Ador Noirrit only (brand doctrine). */
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/LiAdorNoirrit-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/LiAdorNoirrit-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/LiAdorNoirrit-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* HAPTIC FEEDBACK DOCTRINE */
 .haptic-button {
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
