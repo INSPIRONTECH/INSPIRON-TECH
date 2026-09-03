@@ -18,7 +18,6 @@ const config: Config = {
         "deep-navy-black": "#010409",
         "institutional-white": "#FFFFFF",
         // Legacy aliases for backward compatibility
-        navy: "#002147",
         gold: "#FFD700",
         aqua: "#00D2FF",
       },
