@@ -156,7 +156,7 @@ NEED THIS FOR YOUR REAL ESTATE BUSINESS?
 inspiron.tech  ·  hello@inspiron.tech
 WhatsApp: +880 1719-300849
 ```
-**Bottom:** `Manager.io Official Partner · Pakistan · Bangladesh · UAE`
+**Bottom:** `Manager.io Advisor & ERP Architect · Pakistan · Bangladesh · UAE`
 
 ---
 

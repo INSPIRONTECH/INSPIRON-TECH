@@ -490,7 +490,7 @@ export default function NobinAgroCarousel() {
         <div className="mt-auto w-full pt-4">
           <div className="border-t border-white/10 pt-4 w-full text-center">
             <div className="text-white/40 font-bold text-[9px] md:text-[10px] tracking-widest uppercase">
-              INSPIRON TECH | Official Manager.io Partner · Bangladesh
+              INSPIRON TECH | Manager.io Advisor & ERP Architect · Bangladesh
             </div>
           </div>
         </div>

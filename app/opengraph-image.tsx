@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = 'INSPIRON TECH | Official Manager.io Partner Bangladesh';
+export const alt = 'INSPIRON TECH | Manager.io Advisor & ERP Architect';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -63,7 +63,7 @@ export default function OgImage() {
                         marginBottom: '32px',
                         textTransform: 'uppercase',
                     }}>
-                        OFFICIAL MANAGER.IO PARTNER · BANGLADESH
+                        MANAGER.IO ADVISOR · ERP ARCHITECT · BANGLADESH
                     </div>
 
                     {/* Logo mark — SVG inline */}

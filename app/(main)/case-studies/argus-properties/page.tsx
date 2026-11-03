@@ -159,7 +159,7 @@ const SLIDES = [
         cta: {
             title: "NEED THIS FOR YOUR REAL ESTATE BUSINESS?",
             contact: "inspiron.tech  ·  hello@inspiron.tech  ·  +880 1719-300849",
-            badge: "Manager.io Official Partner · Pakistan · Bangladesh · UAE",
+            badge: "Manager.io Advisor & ERP Architect · Pakistan · Bangladesh · UAE",
         },
     },
 ];

@@ -12,7 +12,7 @@
 
 ## 🟡 IMPORTANT
 
-- [x] **`InstitutionalHero.tsx`** — Add second trust badge: `"Listed Manager.io Accountant & Developer"` linking to `manager.io/accountants`
+- [x] **`InstitutionalHero.tsx`** — Add second trust badge: `"Community Theme & Extension Developer"` linking to `themes.alfabase.com`
 - [x] **`InstitutionalHero.tsx`** — Add Upwork export proof line: `"Export-ready · Active on Upwork · Executing globally"`
 - [x] **`services/page.tsx`** — Add pricing to Training card (Foundation 15K / Pro 35K / Expert 60K)
 - [x] **`about/page.tsx`** — VAT transformation story surfaced as dedicated callout block inside X-Press timeline card (2015–2018)
@@ -26,7 +26,7 @@
 ## ✅ ALL ITEMS COMPLETE
 
 - [x] **`app/(main)/page.tsx`** — `100+ Migrations` confirmed in live code.
-- [x] **`app/(main)/about/page.tsx`** — `100+ Migrations` confirmed. `Official Manager.io Partner` confirmed.
+- [x] **`app/(main)/about/page.tsx`** — `100+ Migrations` confirmed. `Manager.io Advisor & ERP Architect` confirmed.
 - [x] **`app/social-assets/page.tsx`** — `50+ Clients` not present. Verified 2026-04-01.
 
 *Audit closed: 2026-04-01 by General Claude (Antigravity)*

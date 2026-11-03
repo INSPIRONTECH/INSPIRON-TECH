@@ -29,7 +29,7 @@
 [![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38BDF8?style=for-the-badge&logo=tailwindcss&labelColor=010409)](https://tailwindcss.com)
 [![Deploy](https://img.shields.io/badge/Vercel-DEPLOYED-FFD700?style=for-the-badge&logo=vercel&labelColor=010409)](https://vercel.com/inspirontech)
 
-**Architect:** MD ABU HASAN · Official Manager.io Partner · DHAKA, BD
+**Architect:** MD ABU HASAN · Manager.io Advisor & ERP Architect · DHAKA, BD
 
 </div>
 
@@ -37,7 +37,7 @@
 
 ## 01 · Overview
 
-**INSPIRON-TECH** is the production codebase for [INSPIRON TECH](https://inspiron.tech) — Bangladesh's only listed Manager.io advisor. This repository is not a template. It is a precision-engineered web system built to convert institutional authority into verifiable client outcomes.
+**INSPIRON-TECH** is the production codebase for [INSPIRON TECH](https://inspiron.tech) — Manager.io Advisor & ERP Architect. This repository is not a template. It is a precision-engineered web system built to convert institutional authority into verifiable client outcomes.
 
 Every component, route, and design token follows the **n-Law Protocol** — a set of geometric and operational rules governing pixel integrity, brand consistency, and zero-approximation logic.
 
@@ -253,7 +253,7 @@ refactor(nav):     # Navigation refactor
 
 ```
 © 2026 INSPIRON TECH · ALL LOGIC ARCHITECTED IN DHAKA, BD
-OFFICIAL MANAGER.IO PARTNER · UTC+06
+MANAGER.IO ADVISOR & ERP ARCHITECT · UTC+06
 ```
 
 </div>

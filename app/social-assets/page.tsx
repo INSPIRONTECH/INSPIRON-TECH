@@ -288,7 +288,7 @@ export default function SocialAssetsPage() {
 
     // FIX 2: Isolated state per platform — no more shared mutation
     const [linkedinData, setLinkedinData] = useState({
-        tag: "Official Partner",
+        tag: "Manager.io Advisor",
         headline: "Deploy Your",
         highlight: "Architecture",
         subtext: "We architect the accounting logic other consultants walk away from.",
@@ -300,7 +300,7 @@ export default function SocialAssetsPage() {
     });
 
     const [facebookData, setFacebookData] = useState({
-        badge: "Official Manager.io Advisor",
+        badge: "Manager.io Advisor & ERP Architect",
         headline: "Institutional-Grade\nFinancial Architecture",
         subtext: "We don't have account managers. We have architects.",
         cta: "inspiron.tech/manager-bd",
@@ -314,7 +314,7 @@ export default function SocialAssetsPage() {
         cta: "inspiron.tech/architect", // shared for old status
         cta1: "Start Demo →",
         cta2: "01719-300849",
-        tag: "Official Partner", // shared for old status
+        tag: "Manager.io Advisor", // shared for old status
         name: "MD ABU HASAN", // shared for old status
         role: "Founder & Chief Architect", // shared for old status
     });
@@ -355,7 +355,7 @@ export default function SocialAssetsPage() {
     });
 
     const [upworkData, setUpworkData] = useState({
-        tag: 'Official Manager.io Partner',
+        tag: 'Manager.io Advisor & ERP Architect',
         headline: 'Manager.io ERP',
         highlight: 'Setup & Data Migration',
         subtext: 'Clean COA · Zero-Loss Migration · Audit-Ready Reports',
@@ -1507,7 +1507,7 @@ export default function SocialAssetsPage() {
                                                 <span className="text-4xl font-medium lowercase text-white tracking-tighter">inspiron</span>
                                                 <span className="text-3xl font-light uppercase tracking-[0.2em]" style={{ color: '#FFD700' }}>TECH</span>
                                             </div>
-                                            <p className="text-sm font-mono uppercase tracking-[0.2em] text-gray-400">Official Manager.io Advisor · Dhaka, Bangladesh</p>
+                                            <p className="text-sm font-mono uppercase tracking-[0.2em] text-gray-400">Manager.io Advisor & ERP Architect · Dhaka, Bangladesh</p>
                                         </div>
                                     </div>
                                     {/* Right: Credentials */}
@@ -1549,7 +1549,7 @@ export default function SocialAssetsPage() {
                                                 <span className="text-2xl font-medium lowercase text-white tracking-tighter">inspiron</span>
                                                 <span className="text-xl font-light uppercase tracking-[0.2em]" style={{ color: '#FFD700' }}>TECH</span>
                                             </div>
-                                            <p className="text-[10px] font-mono uppercase tracking-[0.15em] text-gray-400 mt-1">Manager.io Official Advisor</p>
+                                            <p className="text-[10px] font-mono uppercase tracking-[0.15em] text-gray-400 mt-1">Manager.io Advisor & ERP Architect</p>
                                         </div>
                                         <div className="flex items-center gap-4 mt-1">
                                             <span className="text-[9px] font-mono uppercase tracking-widest" style={{ color: '#00D2FF' }}>inspiron.tech</span>

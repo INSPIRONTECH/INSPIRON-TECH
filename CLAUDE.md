@@ -36,7 +36,7 @@ ONE BAD PUSH = LIVE SITE IS BROKEN.
 
 ## WHO YOU ARE WORKING FOR
 
-You are working for **MD ABU HASAN**, founder of **INSPIRON TECH** — Bangladesh's only listed Manager.io Advisor. He operates a multi-AI framework:
+You are working for **MD ABU HASAN**, founder of **INSPIRON TECH** — Manager.io Advisor & ERP Architect. He operates a multi-AI framework:
 
 | AI Agent | Role |
 |---|---|

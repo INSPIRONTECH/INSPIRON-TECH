@@ -19,8 +19,8 @@ const COMMAND = [
 
 const COMPLIANCE = [
     {
-        label: 'OFFICIAL MANAGER.IO PARTNER',
-        href: 'https://www.manager.io/advisors',
+        label: 'MANAGER.IO ADVISOR & ERP ARCHITECT',
+        href: 'https://www.manager.io/advisors/profile?username=7478b418-50b1-70e2-549b-3a506372d7c0',
         external: true,
     },
     {
@@ -55,10 +55,10 @@ export const GlobalFooter = () => {
                             I Architect Logic.
                         </p>
                         <p className="font-mono text-[10px] text-electric-cyan tracking-widest">
-                            ● OFFICIAL MANAGER.IO PARTNER
+                            ● MANAGER.IO ADVISOR & ERP ARCHITECT
                         </p>
                         <p className="font-mono text-[10px] text-white/30 tracking-widest">
-                            BANGLADESH — ONLY LISTED
+                            DHAKA, BANGLADESH
                         </p>
                         <a href="tel:+8801719300849"
                             className="block font-mono text-[11px] text-white/40
@@ -167,9 +167,9 @@ export const GlobalFooter = () => {
                             className="text-white/40 hover:text-white/70 transition-colors">
                             <SiInstagram size={16} />
                         </a>
-                        <a href="https://www.manager.io/advisors"
+                        <a href="https://www.manager.io/advisors/profile?username=7478b418-50b1-70e2-549b-3a506372d7c0"
                             target="_blank" rel="noopener noreferrer"
-                            title="Manager.io Partner"
+                            title="Manager.io Advisor"
                             className="text-action-gold hover:text-action-gold/80 transition-colors font-mono text-[10px] tracking-widest">
                             MANAGER.IO ↗
                         </a>

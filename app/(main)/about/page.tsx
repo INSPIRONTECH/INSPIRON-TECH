@@ -15,13 +15,13 @@ import {
 import { SiLinkedin, SiGithub, SiUpwork, SiFacebook, SiInstagram } from 'react-icons/si';
 
 export const metadata: Metadata = {
-    title: 'About MD ABU HASAN | INSPIRON TECH — Official Manager.io Partner Bangladesh',
+    title: 'About MD ABU HASAN | INSPIRON TECH — Manager.io Advisor & ERP Architect',
     description:
-        'MD ABU HASAN is the Founder & Chief Architect of INSPIRON TECH. 14+ years inside complex businesses — footwear manufacturing, ISP operations, medical devices — before founding Bangladesh\'s official Manager.io implementation practice.',
+        'MD ABU HASAN is the Founder & Chief Architect of INSPIRON TECH. 14+ years inside complex businesses — footwear manufacturing, ISP operations, medical devices — architecting precision Manager.io workflows across Bangladesh and Pakistan.',
     openGraph: {
         title: 'About MD ABU HASAN | INSPIRON TECH',
         description:
-            '14+ years inside complex businesses. Founder & Chief Architect, INSPIRON TECH — Official Manager.io Partner Bangladesh.',
+            '14+ years inside complex businesses. Founder & Chief Architect, INSPIRON TECH — Manager.io Advisor & ERP Architect.',
         type: 'website',
         locale: 'en_BD',
         siteName: 'INSPIRON TECH',
@@ -88,10 +88,10 @@ const timeline = [
         color: 'text-action-gold',
         borderColor: 'border-action-gold/30',
         hoverBorder: 'hover:border-action-gold/60',
-        tag: 'Official Manager.io Partner',
+        tag: 'Manager.io Advisor & ERP Architect',
         tagColor: 'bg-action-gold/10 text-action-gold border-action-gold/20',
         story:
-            '14+ years of being inside complex businesses — not consulting from the outside — crystallized into a formal practice. INSPIRON TECH is the only Official Manager.io Partner in Bangladesh. Every engagement begins with 10–20 hours understanding your workflow before a single recommendation is made.',
+            '14+ years of being inside complex businesses — not consulting from the outside — crystallized into a formal practice. INSPIRON TECH is a Manager.io Advisor & ERP Architect serving Bangladesh and Pakistan. Every engagement begins with 10–20 hours understanding your workflow before a single recommendation is made.',
         skills: ['Manager.io Architecture', 'NBR/VAT Mushak 6.3', 'Multi-Entity COA', 'Custom Dashboards', 'Zero-Loss Migration'],
     },
 ];
@@ -99,7 +99,7 @@ const timeline = [
 // ─── CREDENTIALS ────────────────────────────────────────────────────────────
 const credentials = [
     {
-        label: 'Official Manager.io Partner',
+        label: 'Manager.io Advisor & ERP Architect',
         sublabel: 'Listed in the Manager.io Advisors directory for Bangladesh',
         link: 'https://www.manager.io/advisors',
         linkText: 'View listing ↗',

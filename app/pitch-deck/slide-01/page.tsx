@@ -8,7 +8,7 @@ const slidesData = [
         type: "title",
         title: "INSPIRON TECH",
         tagline: "I do not install software. I architect logic.",
-        subtitle: "Bangladesh's Only Official Manager.io Partner",
+        subtitle: "Manager.io Advisor & ERP Architect · Bangladesh",
         event: "Smart Bangladesh Accelerator · ESSAP 2026",
         founder: "MD ABU HASAN — Founder & Chief Architect"
     },
@@ -43,13 +43,13 @@ const slidesData = [
         title: "Why Competitors Cannot Copy Us",
         subtitle: "The Competitive Moat",
         points: [
-            { t: "Only Official Manager.io Partner in Bangladesh", text: "Triple-verified: Advisor + Accountant + Developer" },
+            { t: "Manager.io Advisor & ERP Architect in Bangladesh", text: "Dual Expertise: Advisor Directory + Theme & Extension Architecture" },
             { t: "14 Years Cross-Domain Expertise", text: "IT infrastructure + accounting + full-stack development" },
             { t: "Zero Data Loss Track Record", text: "0.1% error tolerance across all migrations" },
             { t: "Turnaround Specialist", text: "Take over projects after 2–3 other consultants failed" },
             { t: "Full-Stack Capability", text: "Bridge IoT sensors, CI/CD pipelines, and web dashboards into accounting" }
         ],
-        highlight: "No competitor in Bangladesh has this combination. Manager.io Partner status alone takes years to earn."
+        highlight: "No competitor in Bangladesh has this combination: deep ERP accounting logic combined with custom theme and extension development."
     },
     {
         type: "traction",
@@ -106,7 +106,7 @@ const slidesData = [
             "100% ITES tax exemption until June 2027",
             "NBR digitization mandate 2026 — every SME needs digital compliance",
             "Smart Bangladesh 2041 Vision — digital transformation is national policy",
-            "First-mover advantage as only Official Manager.io Partner"
+            "First-mover advantage as premier Manager.io Advisor & ERP Architect"
         ]
     },
     {
@@ -130,7 +130,7 @@ const slidesData = [
             { year: "2017", title: "VAT Pioneer", desc: "As Manager of Accounts at X-Press Technologies Ltd (7,360 customers), built Bangladesh's first digital VAT system in 30 days — processing 2,000+ computer-generated Mushak-11 invoices monthly when the entire industry used manual blue books. The NBR Motijheel VAT Superintendent arranged monthly lunch meetings for over a year." },
             { year: "Legal", title: "Legal Precedent", desc: "Won a legal argument at Commissioner level, updating VAT rules on bandwidth classification." },
             { year: "2018–24", title: "Infrastructure & Architecture", desc: "Installed 100+ medical analyzers, built cloud systems for B2B clients across Bangladesh. Mastered high-stakes financial architecture." },
-            { year: "2025", title: "INSPIRON TECH", desc: "Formally registered Oct 2025. Secured Official Manager.io Partner status. Generated BDT 3,05,000 revenue — founder-only, zero marketing. Triple-verified: Advisor, Accountant, Developer." }
+            { year: "2025", title: "INSPIRON TECH", desc: "Formally registered Oct 2025. Listed Manager.io Advisor. Generated BDT 3,05,000 revenue — founder-only, zero marketing. Advisor Directory + Theme & Extension Architecture." }
         ]
     },
     {
@@ -172,7 +172,7 @@ const slidesData = [
             email: "hello@inspiron.tech",
             phone: "+880 1719-300849",
             web: "https://inspiron.tech",
-            partner: "Official Manager.io Partner — Bangladesh"
+            partner: "Manager.io Advisor & ERP Architect — Bangladesh"
         }
     }
 ];

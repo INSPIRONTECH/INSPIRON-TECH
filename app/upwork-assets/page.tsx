@@ -19,7 +19,7 @@ const SLIDES = [
         id: "a1-erp-hero",
         label: "A1 ERP Hero",
         type: "hero",
-        tag: "ENTERPRISE CLOUD ERP · OFFICIAL MANAGER.IO PARTNER",
+        tag: "ENTERPRISE CLOUD ERP · MANAGER.IO ADVISOR & ERP ARCHITECT",
         headline: "Manager.io Accounting",
         highlight: "Complete Setup from Scratch",
         subtext: "Chart of Accounts · Zero-Loss Data Migration · Custom Dashboards · NBR/VAT Automation",
@@ -94,7 +94,7 @@ const SLIDES = [
         tag: "VERIFIED CREDENTIALS · TRACK RECORD",
         headline: "Why Businesses",
         highlight: "Choose INSPIRON TECH",
-        subtext: "14+ years inside manufacturing, ISP operations & medical warehouses before founding Bangladesh's only Official Manager.io practice.",
+        subtext: "14+ years inside manufacturing, ISP operations & medical warehouses — architecting precision Manager.io workflows across Bangladesh and Pakistan.",
     },
     {
         id: "g1-contact-cta",
@@ -193,7 +193,7 @@ function HeroContent({ s }: { s: any }) {
             </p>
             {/* Credential row */}
             <div style={{ display: "flex", gap: 32, marginTop: 80, justifyContent: "center" }}>
-                {["Official Manager.io Partner", "14+ Years Experience", "0.1% Error Tolerance"].map((label, i) => (
+                {["Manager.io Advisor & ERP Architect", "14+ Years Experience", "0.1% Error Tolerance"].map((label, i) => (
                     <div key={i} style={{ padding: "16px 32px", border: `1px solid rgba(0,210,255,0.25)`, borderRadius: 9999, fontSize: 20, color: CYAN, backgroundColor: "rgba(0,210,255,0.06)", fontWeight: 700, letterSpacing: "0.1em" }}>
                         {label}
                     </div>
@@ -451,8 +451,8 @@ function ProofStatsContent({ s }: { s: any }) {
         { value: "5.0★", label: "Upwork Rating", color: GOLD },
     ];
     const creds = [
-        "Official Manager.io Partner — Bangladesh",
-        "Listed Manager.io Accountant & Developer",
+        "Manager.io Advisor & ERP Architect — Bangladesh",
+        "Community Theme & Extension Developer",
         "BASIS Registered · TRADE-DSCC-0045632025",
         "ID Verified Upwork Freelancer",
         "Active Forum Contributor — Global Community",
@@ -514,7 +514,7 @@ function ContactCtaContent({ s }: { s: any }) {
 
             {/* Footer credentials */}
             <div style={{ marginTop: 40, display: "flex", gap: 24, justifyContent: "center" }}>
-                {["Official Manager.io Partner", "ID Verified · Upwork", "BASIS Registered"].map((item, i) => (
+                {["Manager.io Advisor & ERP Architect", "ID Verified · Upwork", "BASIS Registered"].map((item, i) => (
                     <div key={i} style={{ padding: "10px 24px", border: `1px solid ${CYAN}30`, borderRadius: 9999, fontSize: 20, color: CYAN, backgroundColor: `${CYAN}0A` }}>
                         ✓ {item}
                     </div>

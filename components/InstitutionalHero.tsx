@@ -18,26 +18,26 @@ export const InstitutionalHero = () => {
             <div className="relative z-10 text-center max-w-5xl">
                 {/* Trust Badges */}
                 <div className="relative z-20 flex flex-col md:flex-row gap-4 justify-center mb-10 flex-wrap">
-                    {/* Manager.io Official Partner */}
+                    {/* Manager.io Advisor &amp; ERP Architect */}
                     <a
-                        href="https://www.manager.io/advisors"
+                        href="https://www.manager.io/advisors/profile?username=7478b418-50b1-70e2-549b-3a506372d7c0"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 bg-action-gold/10 border border-action-gold/30 px-5 py-2.5 rounded-xl text-[11px] font-black uppercase tracking-widest text-action-gold hover:bg-action-gold/20 transition"
                     >
                         <BadgeCheck size={14} className="text-action-gold" />
-                        Official Manager.io Partner
+                        Manager.io Advisor &amp; ERP Architect
                     </a>
 
-                    {/* Manager.io Listed Accountant & Developer */}
+                    {/* Community Theme & Extension Developer */}
                     <a
-                        href="https://www.manager.io/accountants"
+                        href="https://themes.alfabase.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 bg-action-gold/10 border border-action-gold/30 px-5 py-2.5 rounded-xl text-[11px] font-black uppercase tracking-widest text-action-gold hover:bg-action-gold/20 transition"
                     >
                         <BadgeCheck size={14} className="text-action-gold" />
-                        Listed Manager.io Accountant &amp; Developer
+                        Community Theme &amp; Extension Developer
                     </a>
 
                     {/* Meta Verified Tech Provider */}
@@ -78,7 +78,7 @@ export const InstitutionalHero = () => {
 
                 {/* Subtitle — What you actually do, in human language */}
                 <p className="font-institutional text-base md:text-2xl text-gray-400 max-w-3xl mx-auto mb-6 md:mb-6 leading-relaxed font-light">
-                    14+ years inside manufacturing plants, ISP control rooms, and medical warehouses — before founding Bangladesh's only Official Manager.io practice.
+                    14+ years inside manufacturing plants, ISP control rooms, and medical warehouses — architecting precision Manager.io workflows across Bangladesh and Pakistan.
                 </p>
 
                 {/* Social Proof Line */}
