@@ -244,7 +244,7 @@ refactor(nav):     # Navigation refactor
 | Channel | Detail |
 |---|---|
 | **WhatsApp** | [+880 1719-300849](https://wa.me/8801719300849) |
-| **Upwork** | [upwork.com/freelancers/~011085e2a7cde3f437](https://www.upwork.com/freelancers/~011085e2a7cde3f437) |
+| **Upwork** | [upwork.com/freelancers/cyberhasan](https://www.upwork.com/freelancers/~011085e2a7cde3f437) |
 | **Manager.io** | [manager.io/advisors](https://www.manager.io/advisors) |
 
 ---
