@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = 'INSPIRON TECH | Manager.io Advisor & ERP Architect';
+export const alt = 'INSPIRON TECH | ERP Architect | Listed Manager.io Advisor';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 

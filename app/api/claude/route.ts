@@ -11,7 +11,7 @@ import { NextRequest, NextResponse } from "next/server";
 const MODEL = process.env.CLAUDE_MODEL ?? "claude-haiku-4-5-20251001";
 
 const SYSTEM_PROMPT = `You are an expert ERP proposal assistant for INSPIRON TECH — 
-a premier Manager.io Advisor & ERP Architect, based in Dhaka.
+an ERP Architect | Listed Manager.io Advisor, based in Dhaka.
 
 Your job: Analyze an incoming business inquiry and output a structured JSON proposal.
 

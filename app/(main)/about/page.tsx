@@ -15,13 +15,13 @@ import {
 import { SiLinkedin, SiGithub, SiUpwork, SiFacebook, SiInstagram } from 'react-icons/si';
 
 export const metadata: Metadata = {
-    title: 'About MD ABU HASAN | INSPIRON TECH — Manager.io Advisor & ERP Architect',
+    title: 'About MD ABU HASAN | INSPIRON TECH — ERP Architect | Listed Manager.io Advisor',
     description:
         'MD ABU HASAN is the Founder & Chief Architect of INSPIRON TECH. 14+ years inside complex businesses — footwear manufacturing, ISP operations, medical devices — architecting precision Manager.io workflows across Bangladesh and Pakistan.',
     openGraph: {
         title: 'About MD ABU HASAN | INSPIRON TECH',
         description:
-            '14+ years inside complex businesses. Founder & Chief Architect, INSPIRON TECH — Manager.io Advisor & ERP Architect.',
+            '14+ years inside complex businesses. Founder & Chief Architect, INSPIRON TECH — ERP Architect | Listed Manager.io Advisor.',
         type: 'website',
         locale: 'en_BD',
         siteName: 'INSPIRON TECH',
@@ -88,10 +88,10 @@ const timeline = [
         color: 'text-action-gold',
         borderColor: 'border-action-gold/30',
         hoverBorder: 'hover:border-action-gold/60',
-        tag: 'Manager.io Advisor & ERP Architect',
+        tag: 'ERP Architect | Listed Manager.io Advisor',
         tagColor: 'bg-action-gold/10 text-action-gold border-action-gold/20',
         story:
-            '14+ years of being inside complex businesses — not consulting from the outside — crystallized into a formal practice. INSPIRON TECH is a Manager.io Advisor & ERP Architect serving Bangladesh and Pakistan. Every engagement begins with 10–20 hours understanding your workflow before a single recommendation is made.',
+            '14+ years of being inside complex businesses — not consulting from the outside — crystallized into a formal practice. INSPIRON TECH is an ERP Architect | Listed Manager.io Advisor serving Bangladesh and Pakistan. Every engagement begins with 10–20 hours understanding your workflow before a single recommendation is made.',
         skills: ['Manager.io Architecture', 'NBR/VAT Mushak 6.3', 'Multi-Entity COA', 'Custom Dashboards', 'Zero-Loss Migration'],
     },
 ];
@@ -99,7 +99,7 @@ const timeline = [
 // ─── CREDENTIALS ────────────────────────────────────────────────────────────
 const credentials = [
     {
-        label: 'Manager.io Advisor & ERP Architect',
+        label: 'ERP Architect | Listed Manager.io Advisor',
         sublabel: 'Listed in the Manager.io Advisors directory for Bangladesh',
         link: 'https://www.manager.io/advisors',
         linkText: 'View listing ↗',

@@ -8,7 +8,7 @@ const slidesData = [
         type: "title",
         title: "INSPIRON TECH",
         tagline: "I do not install software. I architect logic.",
-        subtitle: "Manager.io Advisor & ERP Architect · Bangladesh",
+        subtitle: "ERP Architect | Listed Manager.io Advisor · Bangladesh",
         event: "Smart Bangladesh Accelerator · ESSAP 2026",
         founder: "MD ABU HASAN — Founder & Chief Architect"
     },
@@ -43,7 +43,7 @@ const slidesData = [
         title: "Why Competitors Cannot Copy Us",
         subtitle: "The Competitive Moat",
         points: [
-            { t: "Manager.io Advisor & ERP Architect in Bangladesh", text: "Dual Expertise: Advisor Directory + Theme & Extension Architecture" },
+            { t: "ERP Architect | Listed Manager.io Advisor in Bangladesh", text: "Dual Expertise: Advisor Directory + Theme & Extension Architecture" },
             { t: "14 Years Cross-Domain Expertise", text: "IT infrastructure + accounting + full-stack development" },
             { t: "Zero Data Loss Track Record", text: "0.1% error tolerance across all migrations" },
             { t: "Turnaround Specialist", text: "Take over projects after 2–3 other consultants failed" },
@@ -106,7 +106,7 @@ const slidesData = [
             "100% ITES tax exemption until June 2027",
             "NBR digitization mandate 2026 — every SME needs digital compliance",
             "Smart Bangladesh 2041 Vision — digital transformation is national policy",
-            "First-mover advantage as premier Manager.io Advisor & ERP Architect"
+            "First-mover advantage as ERP Architect | Listed Manager.io Advisor"
         ]
     },
     {
@@ -172,7 +172,7 @@ const slidesData = [
             email: "hello@inspiron.tech",
             phone: "+880 1719-300849",
             web: "https://inspiron.tech",
-            partner: "Manager.io Advisor & ERP Architect — Bangladesh"
+            partner: "ERP Architect | Listed Manager.io Advisor — Bangladesh"
         }
     }
 ];

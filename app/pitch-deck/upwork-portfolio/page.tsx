@@ -96,7 +96,7 @@ const PageOne = () => (
 
       <div className="absolute bottom-[20px] right-0 flex items-center gap-3">
         <div className="text-electric-cyan text-[12px] font-bold tracking-wide text-right">
-          Manager.io Advisor & ERP Architect<br/>
+          ERP Architect | Listed Manager.io Advisor<br/>
           <span className="text-electric-cyan/[0.7] font-normal text-[10px] uppercase tracking-wider">Bangladesh</span>
         </div>
         <div className="w-[36px] h-[36px] rounded-full border-2 border-electric-cyan flex items-center justify-center text-electric-cyan font-bold text-lg bg-electric-cyan/[0.1]">
@@ -122,7 +122,7 @@ const PageTwo = () => (
       <div className="w-[55%] flex flex-col">
         <div className="text-electric-cyan text-[10px] uppercase font-bold tracking-widest mb-3">BACKGROUND</div>
         <p className="text-[13px] text-institutional-white/[0.65] leading-[1.6] mb-8 pr-4">
-          Manager.io Advisor & ERP Architect. Computer Engineer (CSE) + BBA + CMA candidate. Founded INSPIRON TECH in 2025 after 14 years architecting financial systems across manufacturing, aquaculture, government contracting, distribution, and healthcare.
+          ERP Architect | Listed Manager.io Advisor. Computer Engineer (CSE) + BBA + CMA candidate. Founded INSPIRON TECH in 2025 after 14 years architecting financial systems across manufacturing, aquaculture, government contracting, distribution, and healthcare.
         </p>
 
         <div className="text-electric-cyan text-[10px] uppercase font-bold tracking-widest mb-4">CORE EXPERTISE</div>
@@ -436,7 +436,7 @@ const PageSix = () => (
       </div>
 
       <div className="inline-block border border-electric-cyan bg-deep-navy-black px-6 py-4 rounded-xl text-left bg-opacity-80">
-        <div className="flex items-center gap-2 text-[12px] text-white mb-2"><span className="text-electric-cyan font-bold text-sm">✓</span> Manager.io Advisor & ERP Architect · Bangladesh</div>
+        <div className="flex items-center gap-2 text-[12px] text-white mb-2"><span className="text-electric-cyan font-bold text-sm">✓</span> ERP Architect | Listed Manager.io Advisor · Bangladesh</div>
         <div className="flex items-center gap-2 text-[12px] text-white mb-2"><span className="text-electric-cyan font-bold text-sm">✓</span> ID Verified · Upwork</div>
         <div className="flex items-center gap-2 text-[12px] text-white"><span className="text-electric-cyan font-bold text-sm">✓</span> 5.0★ Rating</div>
       </div>

@@ -18,7 +18,7 @@ export const InstitutionalHero = () => {
             <div className="relative z-10 text-center max-w-5xl">
                 {/* Trust Badges */}
                 <div className="relative z-20 flex flex-col md:flex-row gap-4 justify-center mb-10 flex-wrap">
-                    {/* Manager.io Advisor &amp; ERP Architect */}
+                    {/* ERP Architect | Listed Manager.io Advisor */}
                     <a
                         href="https://www.manager.io/advisors/profile?username=7478b418-50b1-70e2-549b-3a506372d7c0"
                         target="_blank"
@@ -26,7 +26,7 @@ export const InstitutionalHero = () => {
                         className="flex items-center gap-2 bg-action-gold/10 border border-action-gold/30 px-5 py-2.5 rounded-xl text-[11px] font-black uppercase tracking-widest text-action-gold hover:bg-action-gold/20 transition"
                     >
                         <BadgeCheck size={14} className="text-action-gold" />
-                        Manager.io Advisor &amp; ERP Architect
+                        ERP Architect | Listed Manager.io Advisor
                     </a>
 
                     {/* Community Theme & Extension Developer */}

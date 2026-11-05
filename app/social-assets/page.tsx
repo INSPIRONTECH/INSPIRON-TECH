@@ -300,7 +300,7 @@ export default function SocialAssetsPage() {
     });
 
     const [facebookData, setFacebookData] = useState({
-        badge: "Manager.io Advisor & ERP Architect",
+        badge: "ERP Architect | Listed Manager.io Advisor",
         headline: "Institutional-Grade\nFinancial Architecture",
         subtext: "We don't have account managers. We have architects.",
         cta: "inspiron.tech/manager-bd",
@@ -355,7 +355,7 @@ export default function SocialAssetsPage() {
     });
 
     const [upworkData, setUpworkData] = useState({
-        tag: 'Manager.io Advisor & ERP Architect',
+        tag: 'ERP Architect | Listed Manager.io Advisor',
         headline: 'Manager.io ERP',
         highlight: 'Setup & Data Migration',
         subtext: 'Clean COA · Zero-Loss Migration · Audit-Ready Reports',
@@ -1507,7 +1507,7 @@ export default function SocialAssetsPage() {
                                                 <span className="text-4xl font-medium lowercase text-white tracking-tighter">inspiron</span>
                                                 <span className="text-3xl font-light uppercase tracking-[0.2em]" style={{ color: '#FFD700' }}>TECH</span>
                                             </div>
-                                            <p className="text-sm font-mono uppercase tracking-[0.2em] text-gray-400">Manager.io Advisor & ERP Architect · Dhaka, Bangladesh</p>
+                                            <p className="text-sm font-mono uppercase tracking-[0.2em] text-gray-400">ERP Architect | Listed Manager.io Advisor · Dhaka, Bangladesh</p>
                                         </div>
                                     </div>
                                     {/* Right: Credentials */}
@@ -1549,7 +1549,7 @@ export default function SocialAssetsPage() {
                                                 <span className="text-2xl font-medium lowercase text-white tracking-tighter">inspiron</span>
                                                 <span className="text-xl font-light uppercase tracking-[0.2em]" style={{ color: '#FFD700' }}>TECH</span>
                                             </div>
-                                            <p className="text-[10px] font-mono uppercase tracking-[0.15em] text-gray-400 mt-1">Manager.io Advisor & ERP Architect</p>
+                                            <p className="text-[10px] font-mono uppercase tracking-[0.15em] text-gray-400 mt-1">ERP Architect | Listed Manager.io Advisor</p>
                                         </div>
                                         <div className="flex items-center gap-4 mt-1">
                                             <span className="text-[9px] font-mono uppercase tracking-widest" style={{ color: '#00D2FF' }}>inspiron.tech</span>

@@ -19,7 +19,7 @@ const COMMAND = [
 
 const COMPLIANCE = [
     {
-        label: 'MANAGER.IO ADVISOR & ERP ARCHITECT',
+        label: 'ERP ARCHITECT | LISTED MANAGER.IO ADVISOR',
         href: 'https://www.manager.io/advisors/profile?username=7478b418-50b1-70e2-549b-3a506372d7c0',
         external: true,
     },
@@ -55,7 +55,7 @@ export const GlobalFooter = () => {
                             I Architect Logic.
                         </p>
                         <p className="font-mono text-[10px] text-electric-cyan tracking-widest">
-                            ● MANAGER.IO ADVISOR & ERP ARCHITECT
+                            ● ERP ARCHITECT | LISTED MANAGER.IO ADVISOR
                         </p>
                         <p className="font-mono text-[10px] text-white/30 tracking-widest">
                             DHAKA, BANGLADESH

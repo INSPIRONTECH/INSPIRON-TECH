@@ -19,7 +19,7 @@ const SLIDES = [
         id: "a1-erp-hero",
         label: "A1 ERP Hero",
         type: "hero",
-        tag: "ENTERPRISE CLOUD ERP · MANAGER.IO ADVISOR & ERP ARCHITECT",
+        tag: "ENTERPRISE CLOUD ERP · ERP ARCHITECT | LISTED MANAGER.IO ADVISOR",
         headline: "Manager.io Accounting",
         highlight: "Complete Setup from Scratch",
         subtext: "Chart of Accounts · Zero-Loss Data Migration · Custom Dashboards · NBR/VAT Automation",
@@ -193,7 +193,7 @@ function HeroContent({ s }: { s: any }) {
             </p>
             {/* Credential row */}
             <div style={{ display: "flex", gap: 32, marginTop: 80, justifyContent: "center" }}>
-                {["Manager.io Advisor & ERP Architect", "14+ Years Experience", "0.1% Error Tolerance"].map((label, i) => (
+                {["ERP Architect | Listed Manager.io Advisor", "14+ Years Experience", "0.1% Error Tolerance"].map((label, i) => (
                     <div key={i} style={{ padding: "16px 32px", border: `1px solid rgba(0,210,255,0.25)`, borderRadius: 9999, fontSize: 20, color: CYAN, backgroundColor: "rgba(0,210,255,0.06)", fontWeight: 700, letterSpacing: "0.1em" }}>
                         {label}
                     </div>
@@ -451,7 +451,7 @@ function ProofStatsContent({ s }: { s: any }) {
         { value: "5.0★", label: "Upwork Rating", color: GOLD },
     ];
     const creds = [
-        "Manager.io Advisor & ERP Architect — Bangladesh",
+        "ERP Architect | Listed Manager.io Advisor — Bangladesh",
         "Community Theme & Extension Developer",
         "BASIS Registered · TRADE-DSCC-0045632025",
         "ID Verified Upwork Freelancer",
@@ -514,7 +514,7 @@ function ContactCtaContent({ s }: { s: any }) {
 
             {/* Footer credentials */}
             <div style={{ marginTop: 40, display: "flex", gap: 24, justifyContent: "center" }}>
-                {["Manager.io Advisor & ERP Architect", "ID Verified · Upwork", "BASIS Registered"].map((item, i) => (
+                {["ERP Architect | Listed Manager.io Advisor", "ID Verified · Upwork", "BASIS Registered"].map((item, i) => (
                     <div key={i} style={{ padding: "10px 24px", border: `1px solid ${CYAN}30`, borderRadius: 9999, fontSize: 20, color: CYAN, backgroundColor: `${CYAN}0A` }}>
                         ✓ {item}
                     </div>
